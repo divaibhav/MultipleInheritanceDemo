@@ -12,7 +12,12 @@ public interface MyInterface {
    static void test(){
        System.out.println("hello");
    }
-   public default void display1(){
+    default void display1(){
        System.out.println("My default method");
+       show();
+   }
+   //helper for other method
+   private static void show(){
+       System.out.println("private static");
    }
 }

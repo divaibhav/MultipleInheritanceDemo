@@ -20,6 +20,8 @@ public class MyDerived implements MyInterface, DemoIntreface {
                //interface name . super. default method name
          MyInterface.super.display1();
          DemoIntreface.super.display1();
+         MyInterface.test();
+
 
     }
 
